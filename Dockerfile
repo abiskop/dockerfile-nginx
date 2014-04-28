@@ -5,7 +5,6 @@ RUN echo deb http://archive.ubuntu.com/ubuntu precise-updates main universe >> /
 RUN echo deb http://archive.ubuntu.com/ubuntu precise-updates main universe >> /etc/apt/sources.list
 
 RUN echo deb http://ppa.launchpad.net/nginx/stable/ubuntu precise main >> /etc/apt/sources.list
-RUN echo deb-src http://ppa.launchpad.net/nginx/stable/ubuntu precise main >> /etc/apt/sources.list
 
 RUN apt-get update
 RUN apt-get upgrade -y --no-install-recommends
